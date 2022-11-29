@@ -309,6 +309,11 @@ c.evaluate('rrrrround!(8.2) + округлить(8.4)')
 # 16
 ```
 
+BUILD
+------
+gem build dentaku.gemspec
+gem push dentaku_zevo-3.5.X.gem
+
 THANKS
 ------
 
