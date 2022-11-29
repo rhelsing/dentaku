@@ -1,5 +1,8 @@
 # Change Log
 
+## [v3.5.2]
+- handle floating point multiply
+
 ## [v3.5.1]
 - add bitwise shift left and shift right operators
 - improve numeric conversions

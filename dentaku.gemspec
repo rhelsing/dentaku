@@ -3,15 +3,15 @@ $:.push File.expand_path("../lib", __FILE__)
 require "dentaku/version"
 
 Gem::Specification.new do |s|
-  s.name        = "dentaku"
+  s.name        = "dentaku-zevo"
   s.version     = Dentaku::VERSION
   s.authors     = ["Solomon White"]
   s.email       = ["rubysolo@gmail.com"]
-  s.homepage    = "http://github.com/rubysolo/dentaku"
+  s.homepage    = "http://github.com/rhelsing/dentaku"
   s.licenses    = %w(MIT)
-  s.summary     = 'A formula language parser and evaluator'
+  s.summary     = 'A formula language parser and evaluator - handling float'
   s.description = <<-DESC
-    Dentaku is a parser and evaluator for mathematical formulas
+    Dentaku is a parser and evaluator for mathematical formulas. All credit to Solomon White.
   DESC
 
   s.add_dependency('concurrent-ruby')
