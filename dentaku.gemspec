@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "dentaku/version"
 
 Gem::Specification.new do |s|
-  s.name        = "dentaku-zevo"
+  s.name        = "dentaku_zevo"
   s.version     = Dentaku::VERSION
   s.authors     = ["Solomon White"]
   s.email       = ["rubysolo@gmail.com"]
